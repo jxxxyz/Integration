@@ -1,10 +1,26 @@
 PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - EAIntroView (2.8.1):
+    - EARestrictedScrollView (~> 0.2.0)
+  - EARestrictedScrollView (0.2.0)
   - RDVTabBarController (1.1.9)
 
 DEPENDENCIES:
+  - CocoaLumberjack
+  - EAIntroView (~> 2.8.1)
   - RDVTabBarController (~> 1.1.9)
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  EAIntroView: 73abfa89caa311f450af876421d950b96679e845
+  EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
 
 COCOAPODS: 0.39.0

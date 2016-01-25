@@ -1,1 +1,3 @@
 pod 'RDVTabBarController', '~> 1.1.9’
+pod 'CocoaLumberjack'
+pod 'EAIntroView', '~> 2.8.1'
